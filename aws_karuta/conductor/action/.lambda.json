@@ -1,0 +1,8 @@
+{
+  "timeout": "30",
+  "memory": "256",
+  "env":{
+    "TRANSLATION_KEY": "AIzaSyBVjq0Z03Y01VVinGr5aysKYieZ4Hx2Dt4",
+    "SALT": "gJUPVk5C"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "intents": [
+      {
+        "intent": "NextIntent"
+      },
+      {
+        "intent": "LocaleIntent",
+        "slots":[
+          {
+            "name": "locale",
+            "type": "LIST_OF_LOCALES"
+          }
+        ]
+      },
+      {
+        "intent": "AMAZON.CancelIntent"
+      },
+      {
+        "intent": "AMAZON.HelpIntent"
+      }
+    ]
+}

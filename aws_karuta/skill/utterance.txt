@@ -1,0 +1,7 @@
+NextIntent next
+NextIntent pass
+NextIntent next karuta
+NextIntent next card
+NextIntent pass the card
+
+LocaleIntent {locale}

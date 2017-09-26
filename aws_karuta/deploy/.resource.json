@@ -1,0 +1,43 @@
+{
+  "dynamodb":[
+    {
+      "attribute_definitions": [
+        {
+          "attribute_name": "karuta_id",
+          "attribute_type": "S"
+        }
+      ],
+      "key_schema": [
+        {
+          "attribute_name": "karuta_id",
+          "key_type": "HASH"
+        }
+      ],
+      "provisioned_throughput": {
+        "read_capacity_units": 5,
+        "write_capacity_units": 5
+      },
+      "table_name": "aws_karuta_data"
+    },
+    {
+      "attribute_definitions": [
+        {
+          "attribute_name": "user_id",
+          "attribute_type": "S"
+        }
+      ],
+      "key_schema": [
+        {
+          "attribute_name": "user_id",
+          "key_type": "HASH"
+        }
+      ],
+      "provisioned_throughput": {
+        "read_capacity_units": 5,
+        "write_capacity_units": 5
+      },
+      "table_name": "aws_karuta_users"
+    }
+
+  ]
+}
